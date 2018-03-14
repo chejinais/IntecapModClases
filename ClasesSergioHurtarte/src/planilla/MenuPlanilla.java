@@ -41,6 +41,9 @@ public class MenuPlanilla {
 			        }
 			        catch (Exception e) { 
 			        	
+			        	System.out.println(e.getCause());
+			        
+			        	
 			        	System.out.println("No a ingresado datos de empleado"); 
 			        	}
 			      
@@ -71,7 +74,7 @@ public class MenuPlanilla {
 				break;
 
 			default:
-				System.out.println("Solo opciones entre 1  y  7 ");
+				System.out.println("Solo opciones entre 1  y  6 ");
 			}
 
 		}
